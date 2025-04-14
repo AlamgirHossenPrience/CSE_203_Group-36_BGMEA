@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -16,7 +17,7 @@
    <children>
       <Text layoutX="30.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: gray;" text="Bangladesh Garments Manufacturers and Exporters Association">
          <font>
-            <Font size="22.0" />
+            <Font name="System Bold" size="21.0" />
          </font>
          <fill>
             <LinearGradient endX="1.0" endY="1.0">
@@ -35,12 +36,29 @@
             </LinearGradient>
          </fill>
       </Text>
-      <Text layoutX="262.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 600;" text="Presidents Dashboard">
+      <Text layoutX="24.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Factory Progress" wrappingWidth="239.41558837890625" />
+      <Text layoutX="24.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Active Status of Factories" wrappingWidth="239.41558837890625" />
+      <Text layoutX="24.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verify Pending Members" wrappingWidth="239.41558837890625" />
+      <Text layoutX="24.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make an Announcement" wrappingWidth="239.41558837890625" />
+      <Text layoutX="24.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refresh and Load Pending Approvals" wrappingWidth="220.0" />
+      <Button layoutX="257.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#refreshPendingApprovalsButton" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: skyblue; -fx-text-fill: black;" text="Refresh and Load" />
+      <TableView fx:id="pendingApprovalTable" layoutX="49.0" layoutY="398.0" prefHeight="200.0" prefWidth="590.0" style="-fx-border-color: skyBlue;">
+        <columns>
+          <TableColumn fx:id="serialColumn" prefWidth="75.0" text="Serial" />
+          <TableColumn fx:id="pendingApprovalColumn" prefWidth="446.4" text="Pending Approvals" />
+        </columns>
+      </TableView>
+      <Line endX="485.99993896484375" endY="-7.62939453125E-6" layoutX="146.0" layoutY="125.0" startX="-100.0" stroke="#1e00ff" strokeWidth="3.0" />
+      <Button layoutX="257.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#factroryProgressButton" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Open All Factory Progress" />
+      <Button layoutX="257.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#activeStatusButton" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Show Active Status " />
+      <Button layoutX="257.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#pendingMemberRequestButton" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Pending Member Requests" />
+      <Button layoutX="257.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#makeAnAnnouncementButton" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Make an Announcement" />
+      <Text layoutX="234.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: gray;" text="President Dashboard">
          <font>
-            <Font size="18.0" />
+            <Font name="System Bold" size="21.0" />
          </font>
          <fill>
-            <LinearGradient endX="0.8787878498886571" endY="1.0">
+            <LinearGradient endX="1.0" endY="1.0">
                <stops>
                   <Stop>
                      <color>
@@ -56,22 +74,7 @@
             </LinearGradient>
          </fill>
       </Text>
-      <Text layoutX="88.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Factory Progress" wrappingWidth="239.41558837890625" />
-      <Text layoutX="88.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Active Status of Factories" wrappingWidth="239.41558837890625" />
-      <Text layoutX="87.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verify Pending Members" wrappingWidth="239.41558837890625" />
-      <Text layoutX="87.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make an Announcement" wrappingWidth="239.41558837890625" />
-      <Text layoutX="87.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refresh and Load Pending Approvals" wrappingWidth="239.41558837890625" />
-      <Button layoutX="394.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#refreshPendingApprovalsButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: skyblue; -fx-text-fill: black;" text="Refresh and Load" />
-      <TableView fx:id="pendingApprovalTable" layoutX="49.0" layoutY="398.0" prefHeight="200.0" prefWidth="590.0" style="-fx-border-color: skyBlue;">
-        <columns>
-          <TableColumn fx:id="serialColumn" prefWidth="75.0" text="Serial" />
-          <TableColumn fx:id="pendingApprovalColumn" prefWidth="446.4" text="Pending Approvals" />
-        </columns>
-      </TableView>
-      <Line endX="485.99993896484375" endY="-7.62939453125E-6" layoutX="146.0" layoutY="125.0" startX="-100.0" stroke="#1e00ff" strokeWidth="3.0" />
-      <Button layoutX="394.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#factroryProgressButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Open All Factory Progress" />
-      <Button layoutX="394.0" layoutY="197.0" mnemonicParsing="false" onMouseClicked="#activeStatusButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Show Active Status " />
-      <Button layoutX="394.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#pendingMemberRequestButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Show Pending Member Requests" />
-      <Button layoutX="394.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#makeAnAnnouncementButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: Skyblue; -fx-text-fill: black;" text="Make an Announcement" />
+      <Label layoutX="516.0" layoutY="148.0" text="Announcements" />
+      <Label layoutX="462.0" layoutY="180.0" prefHeight="183.0" prefWidth="206.0" style="-fx-background-color: #e7e7e7;" textFill="#e7e7e7" />
    </children>
 </AnchorPane>

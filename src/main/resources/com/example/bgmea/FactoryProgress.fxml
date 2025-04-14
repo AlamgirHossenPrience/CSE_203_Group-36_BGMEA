@@ -5,12 +5,17 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="522.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.FactoryProgressController">
+<AnchorPane prefHeight="585.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.FactoryProgressController">
    <children>
-      <TextField fx:id="searchFactoryTextField" layoutX="55.0" layoutY="45.0" prefHeight="27.0" prefWidth="314.0" promptText="Search Factory" style="-fx-border-color: skyblue;" />
-      <Button layoutX="401.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#searchFactoryOnMouseClicked" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: skyblue;" text="Search" />
-      <TableView fx:id="allFactoryProgressTable" layoutX="15.0" layoutY="89.0" prefHeight="421.0" prefWidth="663.0" style="-fx-border-color: skyblue;">
+      <TextField fx:id="searchFactoryTextField" layoutX="58.0" layoutY="98.0" prefHeight="27.0" prefWidth="314.0" promptText="Search Factory" style="-fx-border-color: skyblue;" />
+      <Button layoutX="402.0" layoutY="98.0" mnemonicParsing="false" onMouseClicked="#searchFactoryOnMouseClicked" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: skyblue;" text="Search" />
+      <TableView fx:id="allFactoryProgressTable" layoutX="15.0" layoutY="149.0" prefHeight="421.0" prefWidth="663.0" style="-fx-border-color: skyblue;">
         <columns>
           <TableColumn fx:id="factoryNameColumn" prefWidth="196.80001544952393" text="Factory" />
           <TableColumn prefWidth="374.3999786376953" text="Total Garments Exported">
@@ -23,5 +28,26 @@
             <TableColumn fx:id="productionRateColumn" prefWidth="114.4000122070313" text="Production Rate" />
         </columns>
       </TableView>
+      <Text layoutX="281.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Factory Progress">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2666666805744171" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.949999988079071" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
    </children>
 </AnchorPane>
