@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="522.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.FactoryProgressController">
+   <children>
+      <TextField fx:id="searchFactoryTextField" layoutX="55.0" layoutY="45.0" prefHeight="27.0" prefWidth="314.0" promptText="Search Factory" style="-fx-border-color: skyblue;" />
+      <Button layoutX="401.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#searchFactoryOnMouseClicked" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: skyblue;" text="Search" />
+      <TableView fx:id="allFactoryProgressTable" layoutX="15.0" layoutY="89.0" prefHeight="421.0" prefWidth="663.0" style="-fx-border-color: skyblue;">
+        <columns>
+          <TableColumn fx:id="factoryNameColumn" prefWidth="196.80001544952393" text="Factory" />
+          <TableColumn prefWidth="374.3999786376953" text="Total Garments Exported">
+               <columns>
+                  <TableColumn fx:id="exportedMonthlyColumn" prefWidth="111.20001220703125" text="Monthly" />
+                  <TableColumn fx:id="exportedQuarterlyColumn" prefWidth="116.800048828125" text="Quarterly" />
+                  <TableColumn fx:id="exportedYearlyColumn" prefWidth="120.7999267578125" text="Yearly" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="productionRateColumn" prefWidth="114.4000122070313" text="Production Rate" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
