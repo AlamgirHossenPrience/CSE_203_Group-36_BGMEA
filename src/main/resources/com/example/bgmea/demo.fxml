@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.Demo">
+   <children>
+      <Label layoutX="271.0" layoutY="55.0" text="Hello">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idTextField" layoutX="82.0" layoutY="109.0" promptText="Enter ID" />
+      <PasswordField fx:id="passwordPasswordField" layoutX="83.0" layoutY="160.0" promptText="Enter Password" />
+   </children>
+</AnchorPane>
