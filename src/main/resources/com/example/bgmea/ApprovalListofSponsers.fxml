@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.ApprovalListofSponsersController">
+   <children>
+      <Text layoutX="233.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Sponsors">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.1666666716337204" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9666666388511658" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Label layoutX="42.0" layoutY="121.0" text="Pending List of Sponsors:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="456.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: skyblue;" text="Load List" />
+      <TableView layoutX="11.0" layoutY="159.0" prefHeight="200.0" prefWidth="577.0" style="-fx-border-color: skyblue;">
+        <columns>
+          <TableColumn prefWidth="215.2000732421875" text="Sponsoring Company" />
+          <TableColumn prefWidth="171.20001220703125" text="Advertising Product" />
+            <TableColumn prefWidth="115.20001220703125" text="Sponsorship ID" />
+            <TableColumn prefWidth="71.199951171875" text="Approval" />
+        </columns>
+      </TableView>
+      <Button layoutX="463.0" layoutY="399.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: skyblue;" text="Approve All" />
+      <Button layoutX="329.0" layoutY="399.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #ff7878;" text="Disapprove" />
+      <TextField layoutX="158.0" layoutY="399.0" promptText="Enter Sponsorship ID" style="-fx-border-color: skyblue;" />
+      <Label layoutX="11.0" layoutY="403.0" prefHeight="18.0" prefWidth="141.0" text="Disapprove Sponsorship" />
+   </children>
+</AnchorPane>
