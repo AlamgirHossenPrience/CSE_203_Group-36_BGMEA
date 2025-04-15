@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="676.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.ApprovalOfEventBudgetController">
+   <children>
+      <Text layoutX="127.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approval of Event Budget">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.15000000596046448" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9977157115936279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <TableView fx:id="eventBudgetListTable" layoutX="30.0" layoutY="110.0" prefHeight="374.0" prefWidth="406.0">
+        <columns>
+          <TableColumn fx:id="categoryColumn" prefWidth="236.79998779296875" text="Category" />
+          <TableColumn fx:id="projectedSubTotalColumn" prefWidth="168.800048828125" text="Projected Sub-Total (BDT)" />
+        </columns>
+      </TableView>
+      <Label fx:id="eventNameBudgetListLabel" layoutX="30.0" layoutY="79.0" prefHeight="19.0" prefWidth="231.0" style="-fx-border-color: skyblue;" />
+      <Label layoutX="30.0" layoutY="601.0" text="Approve the Budget List" />
+      <Button fx:id="approveEventBudgetButton" layoutX="174.0" layoutY="596.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Approve" />
+      <Label layoutX="272.0" layoutY="496.0" prefHeight="18.0" prefWidth="30.0" style="-fx-background-color: Skyblue;" text="Total" />
+      <Label fx:id="totalBudgetLabel" layoutX="302.0" layoutY="496.0" prefHeight="18.0" prefWidth="135.0" style="-fx-background-color: Skyblue;" />
+   </children>
+</AnchorPane>
