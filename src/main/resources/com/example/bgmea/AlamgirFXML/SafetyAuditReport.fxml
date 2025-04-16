@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.SafetyAuditReportController">
+   <children>
+      <Label layoutX="176.0" layoutY="51.0" text="Conduct Factory Safety Audit">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="132.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Factory Name" />
+      <Label layoutX="56.0" layoutY="164.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Fire Safety" />
+      <Label layoutX="56.0" layoutY="196.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Electrical Safety" />
+      <Label layoutX="56.0" layoutY="227.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Structural Integrity" />
+      <Label layoutX="56.0" layoutY="259.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Emergency Response" />
+      <Label layoutX="56.0" layoutY="290.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Protective Equipment" />
+      <Label layoutX="56.0" layoutY="96.0" prefHeight="18.0" prefWidth="139.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <ComboBox fx:id="factoryNameCombobox" layoutX="198.0" layoutY="129.0" prefWidth="150.0" />
+      <RadioButton fx:id="fireSafetyComplianceRB" layoutX="198.0" layoutY="165.0" mnemonicParsing="false" text="Compliant">
+         <toggleGroup>
+            <ToggleGroup fx:id="fireSafetyTG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="fireSafetyNonComplianceRB" layoutX="289.0" layoutY="165.0" mnemonicParsing="false" text="Non-Compliant" toggleGroup="$fireSafetyTG" />
+      <RadioButton fx:id="fireSafetyNeedImprovementRB" layoutX="414.0" layoutY="165.0" mnemonicParsing="false" text="Needs Improvement" toggleGroup="$fireSafetyTG" />
+      <RadioButton fx:id="electricalSafetyCompliantRB" layoutX="198.0" layoutY="196.0" mnemonicParsing="false" text="Compliant">
+         <toggleGroup>
+            <ToggleGroup fx:id="electricalSafetyTG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="electricalSafetyNonCompliantRB" layoutX="289.0" layoutY="196.0" mnemonicParsing="false" text="Non-Compliant" toggleGroup="$electricalSafetyTG" />
+      <RadioButton fx:id="electricalSafetyNeedImprovementRB" layoutX="414.0" layoutY="196.0" mnemonicParsing="false" text="Needs Improvement" toggleGroup="$electricalSafetyTG" />
+      <RadioButton fx:id="structuralIntegrityCompliantRB" layoutX="198.0" layoutY="227.0" mnemonicParsing="false" text="Compliant">
+         <toggleGroup>
+            <ToggleGroup fx:id="structuralIntegrityTG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="structuralIntegrityNonCompliantRB" layoutX="289.0" layoutY="227.0" mnemonicParsing="false" text="Non-Compliant" toggleGroup="$structuralIntegrityTG" />
+      <RadioButton fx:id="structuralIntegrityNeedImprovementRB" layoutX="414.0" layoutY="227.0" mnemonicParsing="false" text="Needs Improvement" toggleGroup="$structuralIntegrityTG" />
+      <RadioButton fx:id="emergenceResponseCompliantRB" layoutX="198.0" layoutY="259.0" mnemonicParsing="false" text="Compliant">
+         <toggleGroup>
+            <ToggleGroup fx:id="emergenceResponseTG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="emergenceResponseNonCompliantRB" layoutX="289.0" layoutY="259.0" mnemonicParsing="false" text="Non-Compliant" toggleGroup="$emergenceResponseTG" />
+      <RadioButton fx:id="emergenceResponseNeedImprovementRB" layoutX="415.0" layoutY="259.0" mnemonicParsing="false" text="Needs Improvement" toggleGroup="$emergenceResponseTG" />
+      <RadioButton fx:id="protectiveEquipmentCompliantRB" layoutX="198.0" layoutY="290.0" mnemonicParsing="false" text="Compliant">
+         <toggleGroup>
+            <ToggleGroup fx:id="protectiveEquipmentTG" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="protectiveEquipmentNonCompliantRB" layoutX="289.0" layoutY="290.0" mnemonicParsing="false" text="Non-Compliant" toggleGroup="$protectiveEquipmentTG" />
+      <RadioButton fx:id="protectiveEquipmentNeedImprovementRB" layoutX="414.0" layoutY="290.0" mnemonicParsing="false" text="Needs Improvement" toggleGroup="$protectiveEquipmentTG" />
+      <Button layoutX="55.0" layoutY="324.0" mnemonicParsing="false" onAction="#issueSafetyAuditButtonOnAction" prefHeight="26.0" prefWidth="490.0" text="Issue Safety Audit" />
+      <TextArea fx:id="ouputTextArea" layoutX="55.0" layoutY="368.0" prefHeight="70.0" prefWidth="490.0" wrapText="true" />
+      <Button layoutX="300.0" layoutY="451.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+   </children>
+</AnchorPane>

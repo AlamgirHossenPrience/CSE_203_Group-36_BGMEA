@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="451.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.IssueComplianceViolationNoticeController">
+   <children>
+      <Label layoutX="156.0" layoutY="39.0" text="Issue Compliance Violation Notice">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="89.0" prefHeight="18.0" prefWidth="141.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <Label layoutX="57.0" layoutY="124.0" prefHeight="18.0" prefWidth="110.0" style="-fx-background-color: lavender;" text="Factory Name" />
+      <Label layoutX="57.0" layoutY="159.0" prefHeight="18.0" prefWidth="110.0" style="-fx-background-color: lavender;" text="Violation Type" />
+      <Label layoutX="57.0" layoutY="194.0" prefHeight="18.0" prefWidth="110.0" style="-fx-background-color: lavender;" text="Notice Date" />
+      <Label layoutX="57.0" layoutY="230.0" prefHeight="18.0" prefWidth="110.0" style="-fx-background-color: lavender;" text="Detail Description" />
+      <ComboBox fx:id="factoryNameCombobox" layoutX="205.0" layoutY="121.0" prefWidth="150.0" />
+      <ComboBox fx:id="violationTypeCombobox" layoutX="205.0" layoutY="155.0" prefWidth="150.0" />
+      <DatePicker fx:id="noticeDateDatePicker" layoutX="205.0" layoutY="190.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextArea fx:id="descriptionTextArea" layoutX="205.0" layoutY="230.0" prefHeight="56.0" prefWidth="332.0" wrapText="true" />
+      <Button layoutX="56.0" layoutY="303.0" mnemonicParsing="false" onAction="#issueNoticeButtonOnAction" prefHeight="27.0" prefWidth="482.0" text="Issue Notice" wrapText="true" />
+      <TextArea fx:id="ouputTextArea" layoutX="56.0" layoutY="356.0" prefHeight="89.0" prefWidth="482.0" wrapText="true" />
+      <Button layoutX="289.0" layoutY="460.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+   </children>
+</AnchorPane>
