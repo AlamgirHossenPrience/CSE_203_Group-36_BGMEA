@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.bgmea.AddFactoryToBlacklistController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.AddFactoryToBlacklistController">
+   <children>
+      <Label layoutX="183.0" layoutY="43.0" text="Add Factory to the Blacklist">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="90.0" prefHeight="18.0" prefWidth="141.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <Label layoutX="51.0" layoutY="157.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Blacklisted By" />
+      <Label layoutX="51.0" layoutY="188.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Blacklisted Date" />
+      <Label layoutX="51.0" layoutY="219.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Violation" />
+      <Label layoutX="51.0" layoutY="248.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Panalty Amount" />
+      <Label layoutX="51.0" layoutY="277.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Reason for Blacklist" />
+      <TextField fx:id="blacklistedByTextField" layoutX="200.0" layoutY="154.0" />
+      <TextField fx:id="panaltyAmountTextField" layoutX="200.0" layoutY="244.0" />
+      <DatePicker fx:id="blacklistedDateDatePicker" layoutX="201.0" layoutY="185.0" prefHeight="26.0" prefWidth="150.0" />
+      <ComboBox fx:id="violationCombobox" layoutX="201.0" layoutY="216.0" prefWidth="150.0" />
+      <TextArea fx:id="reasonForBlacklistTextArea" layoutX="201.0" layoutY="275.0" prefHeight="51.0" prefWidth="345.0" wrapText="true" />
+      <Button layoutX="50.0" layoutY="335.0" mnemonicParsing="false" onAction="#addToBlacklistButtonOnAction" prefHeight="26.0" prefWidth="498.0" text="Add to Blacklist" />
+      <TextArea fx:id="outputTextArea" layoutX="50.0" layoutY="375.0" prefHeight="77.0" prefWidth="498.0" wrapText="true" />
+      <Button layoutX="294.0" layoutY="461.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+      <Label layoutX="50.0" layoutY="125.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: lavender;" text="Factory" />
+      <ComboBox fx:id="factoryCombobox" layoutX="199.0" layoutY="121.0" prefWidth="150.0" />
+   </children>
 </AnchorPane>

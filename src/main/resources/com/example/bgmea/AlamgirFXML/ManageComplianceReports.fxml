@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.bgmea.ManageComplianceReportsController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.ManageComplianceReportsController">
+   <children>
+      <Label layoutX="178.0" layoutY="46.0" text="Manage Compliance Reports">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="140.0" prefHeight="18.0" prefWidth="86.0" style="-fx-background-color: lavender;" text="Report Type" />
+      <Label layoutX="52.0" layoutY="100.0" prefHeight="18.0" prefWidth="141.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <Button layoutX="300.0" layoutY="453.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+      <Label layoutX="52.0" layoutY="327.0" prefHeight="18.0" prefWidth="86.0" style="-fx-background-color: lavender;" text="Report ID" />
+      <ComboBox fx:id="reportTypeCombobox" layoutX="169.0" layoutY="137.0" prefWidth="150.0" />
+      <TableView fx:id="reportTableView" layoutX="52.0" layoutY="179.0" prefHeight="132.0" prefWidth="494.0">
+        <columns>
+          <TableColumn fx:id="reportTypeTableColumn" prefWidth="128.0" text="Report Type" />
+            <TableColumn fx:id="reportIDTableColumn" prefWidth="102.4000244140625" text="Report ID" />
+          <TableColumn fx:id="factoruCodeTableColumn" prefWidth="84.800048828125" text="Factory Code" />
+            <TableColumn fx:id="factoryNameTableColumn" prefWidth="179.20001220703125" text="Factory Name" />
+        </columns>
+      </TableView>
+      <Button layoutX="358.0" layoutY="137.0" mnemonicParsing="false" onAction="#showReportOnAction" prefHeight="26.0" prefWidth="184.0" text="Show Reports" />
+      <TextField fx:id="reportIDTextField" layoutX="162.0" layoutY="324.0" />
+      <Button layoutX="361.0" layoutY="324.0" mnemonicParsing="false" onAction="#deleteButtonOnAction" prefHeight="26.0" prefWidth="184.0" text="Delete" />
+      <TextArea fx:id="outputTextArea" layoutX="52.0" layoutY="370.0" prefHeight="65.0" prefWidth="494.0" wrapText="true" />
+   </children>
 </AnchorPane>

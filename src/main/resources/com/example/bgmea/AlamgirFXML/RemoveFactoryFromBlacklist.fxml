@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.bgmea.RemoveFactoryFromBlacklistController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.RemoveFactoryFromBlacklistController">
+   <children>
+      <Label layoutX="155.0" layoutY="35.0" text="Remove Factory from the blacklist">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="92.0" prefHeight="18.0" prefWidth="142.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <Label layoutX="53.0" layoutY="129.0" style="-fx-background-color: lavender;" text="Blacklisted Factory" />
+      <Label layoutX="53.0" layoutY="207.0" prefHeight="18.0" prefWidth="142.0" style="-fx-background-color: lavender;" text="Current Blaclisted Factory" />
+      <ComboBox fx:id="blacklistedFactoryTextField" layoutX="195.0" layoutY="125.0" prefWidth="150.0" />
+      <Button layoutX="53.0" layoutY="167.0" mnemonicParsing="false" onAction="#confirmButtonOnAction" prefHeight="26.0" prefWidth="237.0" text="Confirm" />
+      <TableView fx:id="blaclistedFactoryTableview" layoutX="51.0" layoutY="238.0" prefHeight="123.0" prefWidth="499.0">
+        <columns>
+          <TableColumn fx:id="codeTableColumn" prefWidth="75.0" text="Code" />
+          <TableColumn fx:id="nameTableColumn" prefWidth="168.79998779296875" text="Name" />
+            <TableColumn fx:id="violationTableColumn" prefWidth="148.0" text="Violation" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="104.0" text="Date" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="outputTextArea" layoutX="51.0" layoutY="376.0" prefHeight="58.0" prefWidth="499.0" wrapText="true" />
+      <Button layoutX="301.0" layoutY="450.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+      <Button layoutX="329.0" layoutY="168.0" mnemonicParsing="false" onAction="#showBlacklistedFectoryButtonOnAction" prefHeight="26.0" prefWidth="221.0" text="Show Current Blacklisted Factory" />
+   </children>
 </AnchorPane>

@@ -7,10 +7,8 @@
     <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/AddFactoryToBlacklist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/AddFactoryToBlacklist.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/IssueNonComplianceNotice.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/ManageComplianceReports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/ManageComplianceReports.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/RemoveFactoryFromBlacklist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/RemoveFactoryFromBlacklist.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/WageComplianceReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/WageComplianceReport.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -96,6 +97,7 @@
       <workItem from="1744796484826" duration="3279000" />
       <workItem from="1744800063600" duration="3252000" />
       <workItem from="1744804475928" duration="2925000" />
+      <workItem from="1744815517425" duration="3340000" />
     </task>
     <servers />
   </component>
