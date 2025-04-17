@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.WageComplianceReportController">
+   <children>
+      <Label layoutX="192.0" layoutY="46.0" text="Wage Compliance Report">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="109.0" prefHeight="18.0" prefWidth="143.0" style="-fx-background-color: lavender;" text="Please Enter All the Data" />
+      <Label layoutX="80.0" layoutY="147.0" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: lavender;" text="Factory Name" />
+      <Label layoutX="80.0" layoutY="186.0" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: lavender;" text="Basic Salary" />
+      <Label layoutX="80.0" layoutY="221.0" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: lavender;" text="Overtime Pament" />
+      <Label layoutX="80.0" layoutY="260.0" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: lavender;" text="Allowances" />
+      <ComboBox fx:id="factoryNameCombobox" layoutX="223.0" layoutY="143.0" prefWidth="150.0" />
+      <ComboBox fx:id="allowancesCombobox" layoutX="224.0" layoutY="256.0" prefWidth="150.0" />
+      <TextField fx:id="basicSalaryTextField" layoutX="224.0" layoutY="183.0" />
+      <TextField fx:id="overtimePamentTextField" layoutX="223.0" layoutY="217.0" />
+      <Button layoutX="75.0" layoutY="305.0" mnemonicParsing="false" onAction="#addReportButtonOnAction" prefHeight="26.0" prefWidth="454.0" text="Add Report" />
+      <TextArea fx:id="outputTextArea" layoutX="75.0" layoutY="347.0" prefHeight="90.0" prefWidth="454.0" />
+      <Button layoutX="283.0" layoutY="457.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+   </children>
+</AnchorPane>

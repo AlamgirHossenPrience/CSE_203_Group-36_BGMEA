@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="474.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.RegisterNewFactoryController">
+   <children>
+      <Label layoutX="209.0" layoutY="45.0" prefHeight="30.0" prefWidth="181.0" text="Register New Factory">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="102.0" style="-fx-background-color: lavender;" text="Please Enter All the Data">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="139.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Factory Code" />
+      <Label layoutX="66.0" layoutY="175.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Factory Name" />
+      <Label layoutX="66.0" layoutY="209.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Owner" />
+      <Label layoutX="66.0" layoutY="241.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Number of Workers" />
+      <Label layoutX="66.0" layoutY="272.0" prefHeight="18.0" prefWidth="122.0" style="-fx-background-color: lavender;" text="Contact Number" />
+      <TextField fx:id="factoryCodeTextField" layoutX="230.0" layoutY="136.0" promptText="4 Digit" />
+      <TextField fx:id="factoryNameTextField" layoutX="230.0" layoutY="171.0" />
+      <TextField fx:id="ownerTextField" layoutX="230.0" layoutY="205.0" />
+      <TextField fx:id="noOfWorkersTextField" layoutX="230.0" layoutY="237.0" />
+      <TextField fx:id="contactNoTextField" layoutX="230.0" layoutY="268.0" promptText="11 Digit" />
+      <TextArea fx:id="outputTextArea" layoutX="66.0" layoutY="359.0" prefHeight="82.0" prefWidth="472.0" wrapText="true" />
+      <Button layoutX="65.0" layoutY="315.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="26.0" prefWidth="472.0" text="Register" />
+      <Button layoutX="288.0" layoutY="458.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+   </children>
+</AnchorPane>

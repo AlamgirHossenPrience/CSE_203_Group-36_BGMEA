@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.ModifyTrainingProgramController">
+   <children>
+      <Label layoutX="192.0" layoutY="49.0" text="Modify Training Program">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="112.0" prefHeight="18.0" prefWidth="154.0" text="Available Training Program" />
+      <ComboBox fx:id="availableTrainingProgramCombobox" layoutX="212.0" layoutY="108.0" prefHeight="26.0" prefWidth="162.0" />
+      <Button layoutX="382.0" layoutY="108.0" mnemonicParsing="false" onAction="#loadTrainingProgramButtonOnAction" prefHeight="26.0" prefWidth="176.0" text="Load Training Program" />
+      <Label layoutX="39.0" layoutY="164.0" prefHeight="18.0" prefWidth="114.0" style="-fx-background-color: lavender;" text="Program ID" />
+      <Label fx:id="programIDLabel" layoutX="184.0" layoutY="164.0" prefHeight="18.0" prefWidth="162.0" style="-fx-background-color: lavender;" />
+      <TextField fx:id="newProgramTitleTextField" layoutX="359.0" layoutY="198.0" prefHeight="26.0" prefWidth="196.0" promptText="Enter New Program Title" />
+      <Label layoutX="39.0" layoutY="202.0" prefHeight="18.0" prefWidth="114.0" style="-fx-background-color: lavender;" text="Program Title" />
+      <Label layoutX="39.0" layoutY="239.0" prefHeight="18.0" prefWidth="114.0" style="-fx-background-color: lavender;" text="Duration" />
+      <Label fx:id="programTitleLabel" layoutX="184.0" layoutY="202.0" prefHeight="18.0" prefWidth="162.0" style="-fx-background-color: lavender;" />
+      <Label layoutX="39.0" layoutY="275.0" prefHeight="18.0" prefWidth="114.0" style="-fx-background-color: lavender;" text="Mode" />
+      <Label fx:id="durationLabel" layoutX="184.0" layoutY="239.0" prefHeight="18.0" prefWidth="162.0" style="-fx-background-color: lavender;" />
+      <TextField fx:id="newProgramDurationTextField" layoutX="359.0" layoutY="235.0" prefHeight="26.0" prefWidth="196.0" promptText="Enter New Program Duration" />
+      <Label fx:id="modeLabel" layoutX="184.0" layoutY="275.0" prefHeight="18.0" prefWidth="162.0" style="-fx-background-color: lavender;" />
+      <ComboBox fx:id="newModeCombobox" layoutX="359.0" layoutY="271.0" prefHeight="26.0" prefWidth="196.0" promptText="Select New Mode" />
+      <Button layoutX="245.0" layoutY="440.0" mnemonicParsing="false" onAction="#TECDashboardButtonOnAction" text="Back to Training and Education Coordinator Dashboard" />
+      <TextArea fx:id="outputTextArea" layoutX="38.0" layoutY="348.0" prefHeight="74.0" prefWidth="516.0" />
+      <Button layoutX="38.0" layoutY="308.0" mnemonicParsing="false" onAction="#modifyTrainingProgramButtonOnAction" prefHeight="26.0" prefWidth="516.0" text="Modify Training Program" />
+   </children>
+</AnchorPane>
