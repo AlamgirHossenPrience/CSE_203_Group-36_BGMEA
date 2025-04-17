@@ -35,27 +35,29 @@
             </LinearGradient>
          </fill>
       </Text>
-      <TableView layoutX="12.0" layoutY="110.0" prefHeight="200.0" prefWidth="573.0" style="-fx-border-color: skyblue;">
+      <TableView fx:id="vipGuestTable" layoutX="12.0" layoutY="110.0" prefHeight="200.0" prefWidth="573.0" style="-fx-border-color: skyblue;">
         <columns>
-          <TableColumn prefWidth="180.0" text="Guest Name " />
-            <TableColumn prefWidth="138.0" text="Phone Number" />
-            <TableColumn prefWidth="254.0" text="Email Address" />
+          <TableColumn fx:id="vipGuestName" prefWidth="138.40005493164062" text="Guest Name " />
+            <TableColumn fx:id="vipGuestCompanyColumn" prefWidth="115.20001220703125" text="Company" />
+            <TableColumn fx:id="vipGuestPhoneNumberColumn" prefWidth="139.20001220703125" text="Phone Number" />
+            <TableColumn fx:id="vipGuestEmailAddressColumn" prefWidth="179.20001220703125" text="Email Address" />
         </columns>
       </TableView>
       <Label layoutX="18.0" layoutY="587.0" style="-fx-background-color: skyblue;" text="Chief Guest" />
       <Label layoutX="14.0" layoutY="325.0" style="-fx-background-color: Skyblue;" text="Normal Guest List" />
-      <Label layoutX="99.0" layoutY="586.0" prefHeight="19.0" prefWidth="444.0" style="-fx-border-color: skyblue;" />
+      <Label fx:id="chiefGuestTextField" layoutX="99.0" layoutY="586.0" prefHeight="19.0" prefWidth="444.0" style="-fx-border-color: skyblue;" />
       <Label layoutX="12.0" layoutY="86.0" style="-fx-background-color: skyblue;" text="VIP Guest List" />
-      <TableView layoutX="14.0" layoutY="348.0" prefHeight="200.0" prefWidth="573.0" style="-fx-border-color: skyblue;">
+      <ComboBox fx:id="guestListTypeComboBox" layoutX="17.0" layoutY="659.0" prefHeight="25.0" prefWidth="165.0" promptText="Select Guest List Type" style="-fx-border-color: #6296d1; -fx-background-color: skyblue;" />
+      <Button layoutX="220.0" layoutY="659.0" mnemonicParsing="false" onMouseClicked="#disapporveButton" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #ff7777;" text="Disapprove" />
+      <Button layoutX="410.0" layoutY="659.0" mnemonicParsing="false" onMouseClicked="#approveAllButton" prefHeight="25.0" prefWidth="143.0" style="-fx-background-color: skyblue;" text="Approve All" />
+      <Label layoutX="18.0" layoutY="636.0" text="Select Guest List Type and Disapprove" />
+      <TableView fx:id="normalGuestTable" layoutX="12.0" layoutY="354.0" prefHeight="200.0" prefWidth="573.0" style="-fx-border-color: skyblue;">
          <columns>
-            <TableColumn prefWidth="179.0" text="Guest Name " />
-            <TableColumn prefWidth="139.0" text="Phone Number" />
-            <TableColumn prefWidth="254.0" text="Email Address" />
+            <TableColumn fx:id="normalGuestNameColumn" prefWidth="138.40005493164062" text="Guest Name " />
+            <TableColumn fx:id="normalGuestCompanyColumn" prefWidth="115.20001220703125" text="Company" />
+            <TableColumn fx:id="normalGuestPhoneNumberColumn" prefWidth="139.20001220703125" text="Phone Number" />
+            <TableColumn fx:id="normalGuestEmailAddressColum" prefWidth="179.20001220703125" text="Email Address" />
          </columns>
       </TableView>
-      <ComboBox layoutX="17.0" layoutY="659.0" prefHeight="25.0" prefWidth="165.0" promptText="Select Guest List Type" style="-fx-border-color: #6296d1; -fx-background-color: skyblue;" />
-      <Button layoutX="220.0" layoutY="659.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #ff7777;" text="Disapprove" />
-      <Button layoutX="410.0" layoutY="659.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="143.0" style="-fx-background-color: skyblue;" text="Approve All" />
-      <Label layoutX="18.0" layoutY="636.0" text="Select Guest List Type and Disapprove" />
    </children>
 </AnchorPane>

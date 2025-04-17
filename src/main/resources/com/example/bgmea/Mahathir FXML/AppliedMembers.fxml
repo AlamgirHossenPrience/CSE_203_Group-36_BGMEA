@@ -44,7 +44,7 @@
       </TableView>
       <TextField fx:id="applicationIDTextField" layoutX="36.0" layoutY="348.0" prefHeight="26.0" prefWidth="221.0" promptText="Enter Application ID" style="-fx-border-color: skyblue;" />
       <Text layoutX="36.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Application ID and Accept" />
-      <Button layoutX="308.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#acceptButtonOnMouseClick" prefHeight="26.0" prefWidth="128.0" style="-fx-background-color: skyblue;" text="Accept" />
-      <Button layoutX="496.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#refreshTableOnMouseClick" prefHeight="26.0" prefWidth="128.0" style="-fx-background-color: skyblue;" text="Refresh Table" />
+      <Button layoutX="308.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#acceptButton" prefHeight="26.0" prefWidth="128.0" style="-fx-background-color: skyblue;" text="Accept" />
+      <Button layoutX="496.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#refreshTable" prefHeight="26.0" prefWidth="128.0" style="-fx-background-color: skyblue;" text="Refresh Table" />
    </children>
 </AnchorPane>

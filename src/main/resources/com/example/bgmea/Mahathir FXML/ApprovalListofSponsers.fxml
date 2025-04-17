@@ -41,17 +41,17 @@
          </font>
       </Label>
       <Button layoutX="456.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: skyblue;" text="Load List" />
-      <TableView layoutX="11.0" layoutY="159.0" prefHeight="200.0" prefWidth="577.0" style="-fx-border-color: skyblue;">
+      <TableView fx:id="listOfSponsorsTable" layoutX="11.0" layoutY="159.0" prefHeight="200.0" prefWidth="577.0" style="-fx-border-color: skyblue;">
         <columns>
-          <TableColumn prefWidth="215.2000732421875" text="Sponsoring Company" />
-          <TableColumn prefWidth="171.20001220703125" text="Advertising Product" />
-            <TableColumn prefWidth="115.20001220703125" text="Sponsorship ID" />
-            <TableColumn prefWidth="71.199951171875" text="Approval" />
+          <TableColumn fx:id="sponsoringCompanyColumn" prefWidth="215.2000732421875" text="Sponsoring Company" />
+          <TableColumn fx:id="advertisingProductColumn" prefWidth="171.20001220703125" text="Advertising Product" />
+            <TableColumn fx:id="sponsorshipIDColumn" prefWidth="115.20001220703125" text="Sponsorship ID" />
+            <TableColumn fx:id="approvalColumn" prefWidth="71.199951171875" text="Approval" />
         </columns>
       </TableView>
-      <Button layoutX="463.0" layoutY="399.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: skyblue;" text="Approve All" />
-      <Button layoutX="329.0" layoutY="399.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #ff7878;" text="Disapprove" />
-      <TextField layoutX="158.0" layoutY="399.0" promptText="Enter Sponsorship ID" style="-fx-border-color: skyblue;" />
+      <Button layoutX="463.0" layoutY="399.0" mnemonicParsing="false" onMouseClicked="#approveAllButton" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: skyblue;" text="Approve All" />
+      <Button layoutX="329.0" layoutY="399.0" mnemonicParsing="false" onMouseClicked="#disapproveButton" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #ff7878;" text="Disapprove" />
+      <TextField fx:id="disapproveSponsorshipIDTextField" layoutX="158.0" layoutY="399.0" promptText="Enter Sponsorship ID" style="-fx-border-color: skyblue;" />
       <Label layoutX="11.0" layoutY="403.0" prefHeight="18.0" prefWidth="141.0" text="Disapprove Sponsorship" />
    </children>
 </AnchorPane>

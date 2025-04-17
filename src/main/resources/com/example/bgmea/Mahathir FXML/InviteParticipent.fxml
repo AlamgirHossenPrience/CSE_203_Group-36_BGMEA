@@ -10,8 +10,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.InviteParticipentController">
+<AnchorPane prefHeight="400.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.InviteParticipentController">
    <children>
       <Label layoutX="227.0" layoutY="41.0" prefHeight="27.0" prefWidth="146.0" text="Invite Participent">
          <font>
@@ -35,14 +34,16 @@
          </textFill>
       </Label>
       <Label layoutX="43.0" layoutY="91.0" text="Import Approved Guest List" />
-      <Button layoutX="248.0" layoutY="87.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="101.0" style="-fx-background-color: skyblue;" text="Import " />
-      <TableView layoutX="27.0" layoutY="134.0" prefHeight="200.0" prefWidth="550.0">
-        <columns>
-          <TableColumn prefWidth="218.4000244140625" text="Name" />
-          <TableColumn prefWidth="126.4000244140625" text="Guest Type" />
-            <TableColumn prefWidth="203.19998779296873" text="Phone Number" />
-        </columns>
+      <Button layoutX="248.0" layoutY="87.0" mnemonicParsing="false" onMouseClicked="#importButton" prefHeight="26.0" prefWidth="101.0" style="-fx-background-color: skyblue;" text="Import " />
+      <Button layoutX="451.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#sendInvitationButton" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: skyblue;" text="Send Invitation" />
+      <TableView fx:id="inviteParticipentTable" layoutX="22.0" layoutY="137.0" prefHeight="200.0" prefWidth="625.0" style="-fx-border-color: skyblue;">
+         <columns>
+            <TableColumn fx:id="guestNameColumn" prefWidth="129.60004234313965" text="Name" />
+            <TableColumn fx:id="guestTypeColumn" prefWidth="76.00006103515625" text="Guest Type" />
+            <TableColumn fx:id="companyColumn" prefWidth="92.7999267578125" text="Company" />
+            <TableColumn fx:id="phoneNumberColumn" prefWidth="112.800048828125" text="Phone Number" />
+            <TableColumn fx:id="emailAddressColumn" prefWidth="214.39993286132812" text="Email Address" />
+         </columns>
       </TableView>
-      <Button layoutX="451.0" layoutY="349.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: skyblue;" text="Send Invitation" />
    </children>
 </AnchorPane>

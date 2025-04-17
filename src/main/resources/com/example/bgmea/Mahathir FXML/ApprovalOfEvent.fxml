@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.ApprovalOfEventController">
+   <children>
+      <Label layoutX="222.0" layoutY="43.0" text="Approve an Event ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23333333432674408" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.9666666388511658" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="41.0" layoutY="94.0" prefHeight="18.0" prefWidth="100.0" style="-fx-background-color: Skyblue;" text="Event" />
+      <Label fx:id="eventName" layoutX="154.0" layoutY="94.0" prefHeight="18.0" prefWidth="376.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="41.0" layoutY="120.0" prefHeight="18.0" prefWidth="100.0" style="-fx-background-color: Skyblue;" text="Event Description" />
+      <Label fx:id="eventDescription" layoutX="154.0" layoutY="120.0" prefHeight="104.0" prefWidth="376.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="41.0" layoutY="236.0" prefHeight="18.0" prefWidth="100.0" style="-fx-background-color: Skyblue;" text="Event Date &amp; Time" />
+      <Label fx:id="eventDateandTime" layoutX="154.0" layoutY="236.0" prefHeight="18.0" prefWidth="376.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="41.0" layoutY="269.0" prefHeight="18.0" prefWidth="100.0" style="-fx-background-color: Skyblue;" text="Event Type" />
+      <Label fx:id="eventType" layoutX="154.0" layoutY="269.0" prefHeight="18.0" prefWidth="376.0" style="-fx-background-color: skyblue;" />
+      <Button layoutX="325.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#approveButton" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: skyblue;" text="Approve" />
+      <Button layoutX="181.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#disapproveButton" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #ff7777;" text="Disapprove" />
+   </children>
+</AnchorPane>

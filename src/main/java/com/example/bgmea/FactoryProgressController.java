@@ -23,6 +23,8 @@ public class FactoryProgressController
     private TableView allFactoryProgressTable;
     @javafx.fxml.FXML
     private TableColumn exportedMonthlyColumn;
+    @javafx.fxml.FXML
+    private TableColumn totalGarmentsExportedColumn;
 
     @javafx.fxml.FXML
     public void initialize() {

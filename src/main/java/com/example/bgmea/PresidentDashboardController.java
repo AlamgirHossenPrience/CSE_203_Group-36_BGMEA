@@ -1,6 +1,7 @@
 package com.example.bgmea;
 
 import javafx.event.Event;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
@@ -12,6 +13,8 @@ public class PresidentDashboardController
     private TableView pendingApprovalTable;
     @javafx.fxml.FXML
     private TableColumn serialColumn;
+    @javafx.fxml.FXML
+    private Label announcementLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

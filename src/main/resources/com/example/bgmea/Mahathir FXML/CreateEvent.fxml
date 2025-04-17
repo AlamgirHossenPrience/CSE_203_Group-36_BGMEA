@@ -12,7 +12,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.CreateEventController">
    <children>
       <Label layoutX="246.0" layoutY="34.0" text="Create Event">
@@ -36,18 +35,18 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <TextField layoutX="157.0" layoutY="87.0" promptText="Enter event name" />
-      <Text layoutX="77.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
-      <Text layoutX="78.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" />
-      <TextField layoutX="156.0" layoutY="131.0" prefHeight="161.0" prefWidth="150.0" promptText="Enter event description" />
-      <Text layoutX="353.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Type" />
-      <Text layoutX="353.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Venue" />
-      <Text layoutX="351.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Date " />
-      <ComboBox layoutX="447.0" layoutY="87.0" prefHeight="26.0" prefWidth="138.0" promptText="Select event type" />
-      <ComboBox layoutX="448.0" layoutY="134.0" prefHeight="26.0" prefWidth="137.0" promptText="Select event venue" />
-      <DatePicker layoutX="447.0" layoutY="187.0" prefHeight="26.0" prefWidth="138.0" />
-      <Text layoutX="352.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Time" />
-      <TextField layoutX="447.0" layoutY="243.0" prefHeight="26.0" prefWidth="138.0" />
-      <Button layoutX="396.0" layoutY="326.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="159.0" style="-fx-background-color: Skyblue;" text="Create Event" />
+      <TextField fx:id="eventNameTextField" layoutX="126.0" layoutY="87.0" promptText="Enter event name" style="-fx-border-color: skyblue;" />
+      <Text layoutX="46.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="47.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" />
+      <TextField fx:id="eventDescriptionTextField" layoutX="125.0" layoutY="131.0" prefHeight="161.0" prefWidth="150.0" promptText="Enter event description" style="-fx-border-color: skyblue;" />
+      <Text layoutX="322.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Type" />
+      <Text layoutX="322.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Venue" />
+      <Text layoutX="320.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Date " />
+      <ComboBox fx:id="eventTypeComboBox" layoutX="416.0" layoutY="87.0" prefHeight="26.0" prefWidth="150.0" promptText="Select event type" style="-fx-background-color: skyblue;" />
+      <ComboBox fx:id="eventVenueComboBox" layoutX="417.0" layoutY="134.0" prefHeight="26.0" prefWidth="150.0" promptText="Select event venue" style="-fx-background-color: skyblue;" />
+      <DatePicker fx:id="eventDatePicker" layoutX="416.0" layoutY="187.0" prefHeight="27.0" prefWidth="150.0" style="-fx-border-color: skyblue;" />
+      <Text layoutX="321.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Time" />
+      <TextField fx:id="eventTimeTextField" layoutX="416.0" layoutY="243.0" prefHeight="27.0" prefWidth="150.0" promptText="Enter Time" style="-fx-border-color: skyblue;" />
+      <Button layoutX="365.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#createEventButton" prefHeight="26.0" prefWidth="159.0" style="-fx-background-color: Skyblue;" text="Create Event" />
    </children>
 </AnchorPane>

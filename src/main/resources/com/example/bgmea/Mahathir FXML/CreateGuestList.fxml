@@ -12,7 +12,6 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="547.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.CreateGuestListController">
    <children>
       <Label layoutX="152.0" layoutY="49.0" text="Create Guest List and Send for Approval">
@@ -37,27 +36,27 @@
          </textFill>
       </Label>
       <Label layoutX="44.0" layoutY="110.0" text="Guest Name" />
-      <TextField layoutX="187.0" layoutY="107.0" promptText="Enter guest name" />
+      <TextField fx:id="guestNameTextField" layoutX="187.0" layoutY="107.0" promptText="Enter guest name" style="-fx-border-color: skyblue;" />
       <Label layoutX="44.0" layoutY="144.0" text="Guest Phone Number" />
-      <TextField layoutX="187.0" layoutY="141.0" promptText="Enter phone number" />
+      <TextField fx:id="guestPhoneNumberTextField" layoutX="187.0" layoutY="141.0" promptText="Enter phone number" style="-fx-border-color: skyblue;" />
       <Label layoutX="346.0" layoutY="115.0" text="Guest Type" />
-      <ComboBox layoutX="462.0" layoutY="110.0" prefHeight="26.0" prefWidth="138.0" promptText="Select guest type" />
+      <ComboBox fx:id="guestTypeComboBox" layoutX="462.0" layoutY="110.0" prefHeight="26.0" prefWidth="138.0" promptText="Select guest type" style="-fx-background-color: skyblue;" />
       <Label layoutX="44.0" layoutY="179.0" text="Guest Industry/Company" />
-      <TextField layoutX="187.0" layoutY="176.0" promptText="Enter Company" />
+      <TextField fx:id="guestCompanyTextField" layoutX="187.0" layoutY="176.0" promptText="Enter Company" style="-fx-border-color: skyblue;" />
       <Label layoutX="346.0" layoutY="149.0" text="Guest Email Address" />
-      <TextField layoutX="462.0" layoutY="144.0" prefHeight="26.0" prefWidth="138.0" promptText="Enter Email Address" />
-      <TableView layoutX="8.0" layoutY="253.0" prefHeight="200.0" prefWidth="625.0">
+      <TextField fx:id="guestEmailAddressTextField" layoutX="462.0" layoutY="144.0" prefHeight="26.0" prefWidth="138.0" promptText="Enter Email Address" style="-fx-border-color: skyblue;" />
+      <TableView fx:id="createGuestListTable" layoutX="8.0" layoutY="253.0" prefHeight="200.0" prefWidth="625.0" style="-fx-border-color: skyblue;">
         <columns>
-          <TableColumn prefWidth="129.60004234313965" text="Name" />
-          <TableColumn prefWidth="76.00006103515625" text="Guest Type" />
-            <TableColumn prefWidth="92.7999267578125" text="Company" />
-            <TableColumn prefWidth="112.800048828125" text="Phone Number" />
-            <TableColumn prefWidth="211.20000610351565" text="Email Address" />
+          <TableColumn fx:id="nameCoumn" prefWidth="129.60004234313965" text="Name" />
+          <TableColumn fx:id="guestTypeColumn" prefWidth="76.00006103515625" text="Guest Type" />
+            <TableColumn fx:id="companyColumn" prefWidth="92.7999267578125" text="Company" />
+            <TableColumn fx:id="phoneNumberColumn" prefWidth="112.800048828125" text="Phone Number" />
+            <TableColumn fx:id="emailAddressColumn" prefWidth="211.20000610351565" text="Email Address" />
         </columns>
       </TableView>
-      <Button layoutX="353.0" layoutY="202.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: Skyblue;" text="Add" />
-      <Button layoutX="474.0" layoutY="202.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: Skyblue;" text="Load Table" />
-      <Button layoutX="333.0" layoutY="483.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: Skyblue;" text="Send" />
+      <Button layoutX="383.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#addbutton" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: Skyblue;" text="Add" />
+      <Button layoutX="508.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#loadTableButton" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: Skyblue;" text="Load Table" />
+      <Button layoutX="333.0" layoutY="483.0" mnemonicParsing="false" onMouseClicked="#sendButton" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: Skyblue;" text="Send" />
       <Label layoutX="101.0" layoutY="488.0" text="Send List for Approval to the President" />
    </children>
 </AnchorPane>

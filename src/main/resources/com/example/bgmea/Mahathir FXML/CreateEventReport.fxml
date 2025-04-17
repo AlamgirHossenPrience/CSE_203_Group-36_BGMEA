@@ -11,11 +11,10 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="466.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.CreateEventReportController">
+<AnchorPane prefHeight="466.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.CreateEventReportController">
    <children>
       <Label layoutX="373.0" layoutY="375.0" prefHeight="18.0" prefWidth="81.0" style="-fx-background-color: skyblue;" text="Team of Stuff" />
-      <Label layoutX="243.0" layoutY="47.0" text="Create Event Report">
+      <Label layoutX="260.0" layoutY="44.0" text="Create Event Report">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -41,28 +40,28 @@
       <Label layoutX="50.0" layoutY="191.0" text="Event Caterer Cost" />
       <Label layoutX="50.0" layoutY="229.0" text="Event Decorator Cost" />
       <Label layoutX="50.0" layoutY="264.0" text="Event Stuff Cost" />
-      <TextField layoutX="179.0" layoutY="107.0" promptText="Enter amount" />
-      <TextField layoutX="179.0" layoutY="150.0" promptText="Enter amount" />
-      <TextField layoutX="179.0" layoutY="187.0" promptText="Enter amount" />
-      <TextField layoutX="179.0" layoutY="225.0" promptText="Enter amount" />
-      <TextField layoutX="179.0" layoutY="260.0" promptText="Enter amount" />
+      <TextField fx:id="eventNameTextField" layoutX="179.0" layoutY="107.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
+      <TextField fx:id="venueCostTextField" layoutX="179.0" layoutY="150.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
+      <TextField fx:id="catererCostTextField" layoutX="179.0" layoutY="187.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
+      <TextField fx:id="decoratorCostTextField" layoutX="179.0" layoutY="225.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
+      <TextField fx:id="stuffCostTextField" layoutX="179.0" layoutY="260.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
       <Label layoutX="50.0" layoutY="300.0" text="Other Costs" />
-      <TextField layoutX="179.0" layoutY="296.0" promptText="Enter amount" />
-      <TableView layoutX="374.0" layoutY="107.0" prefHeight="215.0" prefWidth="273.0">
+      <TextField fx:id="otherCostTextField" layoutX="179.0" layoutY="296.0" promptText="Enter amount" style="-fx-border-color: skyblue;" />
+      <TableView fx:id="eventReportTable" layoutX="374.0" layoutY="107.0" prefHeight="215.0" prefWidth="273.0" style="-fx-border-color: skyblue;">
         <columns>
-          <TableColumn prefWidth="137.60003662109375" text="Cost Type" />
-          <TableColumn prefWidth="135.20001220703125" text="Cost" />
+          <TableColumn fx:id="costTypeColumn" prefWidth="137.60003662109375" text="Cost Type" />
+          <TableColumn fx:id="costColumn" prefWidth="135.20001220703125" text="Cost" />
         </columns>
       </TableView>
       <Label layoutX="51.0" layoutY="333.0" text="Assigned Team" />
-      <TextField layoutX="179.0" layoutY="329.0" promptText="Enter team" />
+      <TextField fx:id="assignedTeamTextField" layoutX="179.0" layoutY="329.0" promptText="Enter team" style="-fx-border-color: skyblue;" />
       <Label layoutX="374.0" layoutY="346.0" prefHeight="18.0" prefWidth="71.0" style="-fx-background-color: skyblue;" text="Event Name" />
-      <Label layoutX="445.0" layoutY="346.0" prefHeight="18.0" prefWidth="204.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
-      <Label layoutX="445.0" layoutY="375.0" prefHeight="18.0" prefWidth="204.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
+      <Label fx:id="eventNameLabel" layoutX="445.0" layoutY="346.0" prefHeight="18.0" prefWidth="204.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
+      <Label fx:id="teamOfStuffLabel" layoutX="445.0" layoutY="375.0" prefHeight="18.0" prefWidth="204.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
       <Label layoutX="373.0" layoutY="403.0" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: skyblue;" text="Number of Guest Arrived" />
-      <Label layoutX="509.0" layoutY="403.0" prefHeight="18.0" prefWidth="140.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
+      <Label fx:id="numberOfGuestArrivedLabel" layoutX="509.0" layoutY="403.0" prefHeight="18.0" prefWidth="140.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
       <Label layoutX="373.0" layoutY="433.0" prefHeight="18.0" prefWidth="112.0" style="-fx-background-color: skyblue;" text="Total Cost" />
-      <Label layoutX="465.0" layoutY="433.0" prefHeight="18.0" prefWidth="184.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
-      <Button layoutX="239.0" layoutY="380.0" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="Create Report" />
+      <Label fx:id="totalCostLabel" layoutX="465.0" layoutY="433.0" prefHeight="18.0" prefWidth="184.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
+      <Button layoutX="239.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#createReportButton" style="-fx-background-color: skyblue;" text="Create Report" />
    </children>
 </AnchorPane>

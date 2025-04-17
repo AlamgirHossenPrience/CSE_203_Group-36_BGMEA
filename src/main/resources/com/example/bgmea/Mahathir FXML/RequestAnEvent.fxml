@@ -11,10 +11,9 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.RequestAnEventController">
    <children>
-      <Label layoutX="224.0" layoutY="38.0" text="Approval of Event">
+      <Label layoutX="240.0" layoutY="37.0" text="Request Event">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -36,16 +35,16 @@
          </textFill>
       </Label>
       <Label layoutX="46.0" layoutY="100.0" text="Event Name" />
-      <TextField layoutX="161.0" layoutY="96.0" promptText="Enter event name" />
+      <TextField fx:id="eventNameTextField" layoutX="161.0" layoutY="96.0" promptText="Enter event name" style="-fx-border-color: skyblue;" />
       <Label layoutX="46.0" layoutY="136.0" text="Event Description" />
-      <TextField layoutX="161.0" layoutY="132.0" prefHeight="171.0" prefWidth="150.0" />
+      <TextField fx:id="eventDescriptionTextField" layoutX="161.0" layoutY="132.0" prefHeight="171.0" prefWidth="150.0" style="-fx-border-color: skyblue;" />
       <Label layoutX="334.0" layoutY="100.0" text="Event Date" />
-      <DatePicker layoutX="404.0" layoutY="96.0" />
+      <DatePicker fx:id="eventDatePicker" layoutX="404.0" layoutY="96.0" style="-fx-border-color: skyblue;" />
       <Label layoutX="334.0" layoutY="136.0" prefHeight="18.0" prefWidth="64.0" text="Event Time" />
-      <TextField layoutX="404.0" layoutY="132.0" promptText="Enter event time" />
+      <TextField fx:id="eventTimeTextField" layoutX="404.0" layoutY="132.0" promptText="Enter event time" style="-fx-border-color: skyblue;" />
       <Label layoutX="334.0" layoutY="172.0" prefHeight="18.0" prefWidth="64.0" text="Event Type" />
-      <ComboBox layoutX="403.0" layoutY="168.0" prefWidth="150.0" promptText="Select event type" />
+      <ComboBox fx:id="eventTypeComboBox" layoutX="403.0" layoutY="168.0" prefWidth="150.0" promptText="Select event type" style="-fx-background-color: skyblue;" />
       <Label layoutX="57.0" layoutY="335.0" text="Send for Approval to the President" />
-      <Button layoutX="274.0" layoutY="331.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: skyblue;" text="Send" />
+      <Button layoutX="274.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#addButton" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: skyblue;" text="Send" />
    </children>
 </AnchorPane>

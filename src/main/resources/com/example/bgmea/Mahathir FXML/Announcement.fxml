@@ -32,7 +32,7 @@
             </LinearGradient>
          </fill>
       </Text>
-      <TextField fx:id="announcementTextField" layoutX="53.0" layoutY="112.0" prefHeight="34.0" prefWidth="499.0" promptText="Enter your text" />
+      <TextField fx:id="announcementTextField" layoutX="53.0" layoutY="112.0" prefHeight="34.0" prefWidth="499.0" promptText="Enter your text" style="-fx-border-color: skyblue;" />
       <Button layoutX="450.0" layoutY="167.0" mnemonicParsing="false" onMouseClicked="#announcementButton" prefHeight="26.0" prefWidth="101.0" style="-fx-background-color: skyblue;" text="Announce" />
    </children>
 </AnchorPane>

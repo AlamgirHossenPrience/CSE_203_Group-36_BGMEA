@@ -1,5 +1,6 @@
 package com.example.bgmea;
 
+import javafx.event.Event;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -20,4 +21,9 @@ public class ShowActiveStatusController
 
     @javafx.fxml.FXML
     public void initialize() {
-    }}
+    }
+
+    @javafx.fxml.FXML
+    public void searchButton(Event event) {
+    }
+}

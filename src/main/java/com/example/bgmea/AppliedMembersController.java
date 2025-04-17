@@ -24,11 +24,19 @@ public class AppliedMembersController
     public void initialize() {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void acceptButtonOnMouseClick(Event event) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void refreshTableOnMouseClick(Event event) {
+    }
+
+    @javafx.fxml.FXML
+    public void refreshTable(Event event) {
+    }
+
+    @javafx.fxml.FXML
+    public void acceptButton(Event event) {
     }
 }

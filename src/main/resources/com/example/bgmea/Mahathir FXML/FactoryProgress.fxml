@@ -18,7 +18,7 @@
       <TableView fx:id="allFactoryProgressTable" layoutX="15.0" layoutY="149.0" prefHeight="421.0" prefWidth="663.0" style="-fx-border-color: skyblue;">
         <columns>
           <TableColumn fx:id="factoryNameColumn" prefWidth="196.80001544952393" text="Factory" />
-          <TableColumn prefWidth="374.3999786376953" text="Total Garments Exported">
+          <TableColumn fx:id="totalGarmentsExportedColumn" prefWidth="374.3999786376953" text="Total Garments Exported">
                <columns>
                   <TableColumn fx:id="exportedMonthlyColumn" prefWidth="111.20001220703125" text="Monthly" />
                   <TableColumn fx:id="exportedQuarterlyColumn" prefWidth="116.800048828125" text="Quarterly" />

@@ -10,7 +10,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="468.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.EventManagerDashboardController">
    <children>
       <Text layoutX="67.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bangladesh Garments Manufacturing and Export Assosiation">
@@ -55,15 +54,15 @@
             </LinearGradient>
          </fill>
       </Text>
-      <Button layoutX="32.0" layoutY="233.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create an event" />
-      <Button layoutX="32.0" layoutY="270.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Invite Participents" />
-      <Button layoutX="32.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Budget" />
-      <Button layoutX="260.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Sponsors List" />
-      <Button layoutX="260.0" layoutY="233.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Guest List" />
-      <Button layoutX="260.0" layoutY="270.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Assign Task and Stuff" />
-      <Button layoutX="32.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Approval of Event" />
-      <Button layoutX="260.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Report" />
-      <Label layoutX="492.0" layoutY="180.0" prefHeight="226.0" prefWidth="218.0" style="-fx-background-color: #e7e7e7;" />
+      <Button layoutX="32.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#createEventButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create an event" />
+      <Button layoutX="32.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#inviteParticipentsButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Invite Participents" />
+      <Button layoutX="32.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#createEventButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Budget" />
+      <Button layoutX="260.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#createSponsorsListButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Sponsors List" />
+      <Button layoutX="260.0" layoutY="233.0" mnemonicParsing="false" onContextMenuRequested="#createGuestListButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Guest List" />
+      <Button layoutX="260.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#assignTaskAndStuffButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Assign Task and Stuff" />
+      <Button layoutX="32.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#approvalOfEventButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Approval of Event" />
+      <Button layoutX="260.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#createEventReportButton" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Report" />
+      <Label fx:id="annoncementLabel" layoutX="492.0" layoutY="180.0" prefHeight="226.0" prefWidth="218.0" style="-fx-background-color: #e7e7e7; -fx-border-color: Skyblue;" />
       <Line endX="100.0" layoutX="265.0" layoutY="166.0" startX="-122.80000305175781" startY="1.52587890625E-5" strokeWidth="4.0">
          <stroke>
             <LinearGradient endX="1.0" endY="1.0">
