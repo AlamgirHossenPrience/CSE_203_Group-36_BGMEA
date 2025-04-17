@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="499.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.TaskStuffManagementController">
+   <children>
+      <Label layoutX="187.0" layoutY="41.0" text="Task &amp;  stuff Management">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23333333432674408" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9833333492279053" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="73.0" layoutY="95.0" text="Event Name" />
+      <TextField layoutX="166.0" layoutY="90.0" prefHeight="26.0" prefWidth="175.0" promptText="Enter event name" />
+      <Label layoutX="73.0" layoutY="135.0" prefHeight="18.0" prefWidth="64.0" text="Event Date" />
+      <ComboBox layoutX="187.0" layoutY="393.0" prefWidth="150.0" promptText="Select a team" />
+      <TableView layoutX="61.0" layoutY="176.0" prefHeight="200.0" prefWidth="498.0">
+        <columns>
+          <TableColumn prefWidth="104.0" text="Team" />
+          <TableColumn prefWidth="246.4000244140625" text="Appliacable for the number of Guest" />
+            <TableColumn prefWidth="148.79998779296875" text="Availability" />
+        </columns>
+      </TableView>
+      <Label layoutX="73.0" layoutY="397.0" prefHeight="18.0" prefWidth="128.0" text="Event Team" />
+      <Button layoutX="429.0" layoutY="393.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: skyblue;" text="Assign" />
+      <DatePicker layoutX="166.0" layoutY="132.0" />
+   </children>
+</AnchorPane>

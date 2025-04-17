@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.InviteParticipentController">
+   <children>
+      <Label layoutX="227.0" layoutY="41.0" prefHeight="27.0" prefWidth="146.0" text="Invite Participent">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2666666805744171" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9666666388511658" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="43.0" layoutY="91.0" text="Import Approved Guest List" />
+      <Button layoutX="248.0" layoutY="87.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="101.0" style="-fx-background-color: skyblue;" text="Import " />
+      <TableView layoutX="27.0" layoutY="134.0" prefHeight="200.0" prefWidth="550.0">
+        <columns>
+          <TableColumn prefWidth="218.4000244140625" text="Name" />
+          <TableColumn prefWidth="126.4000244140625" text="Guest Type" />
+            <TableColumn prefWidth="203.19998779296873" text="Phone Number" />
+        </columns>
+      </TableView>
+      <Button layoutX="451.0" layoutY="349.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: skyblue;" text="Send Invitation" />
+   </children>
+</AnchorPane>

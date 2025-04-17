@@ -12,7 +12,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="612.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.PresidentDashboard">
    <children>
       <Text layoutX="30.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: gray;" text="Bangladesh Garments Manufacturers and Exporters Association">
@@ -75,6 +74,6 @@
          </fill>
       </Text>
       <Label layoutX="516.0" layoutY="148.0" text="Announcements" />
-      <Label layoutX="462.0" layoutY="180.0" prefHeight="183.0" prefWidth="206.0" style="-fx-background-color: #e7e7e7;" textFill="#e7e7e7" />
+      <Label layoutX="462.0" layoutY="180.0" prefHeight="183.0" prefWidth="206.0" style="-fx-background-color: #e7e7e7;" />
    </children>
 </AnchorPane>
