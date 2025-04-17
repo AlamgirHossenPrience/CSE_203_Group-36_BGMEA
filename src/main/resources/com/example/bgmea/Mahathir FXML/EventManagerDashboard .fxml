@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="468.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.Mahathir FXML.EventManagerDashboard">
+   <children>
+      <Text layoutX="67.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bangladesh Garments Manufacturing and Export Assosiation">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.10000000149011612" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9333333373069763" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="254.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Manager Dashboard">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.10000000149011612" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9333333373069763" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button layoutX="32.0" layoutY="233.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create an event" />
+      <Button layoutX="32.0" layoutY="270.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Invite Participents" />
+      <Button layoutX="32.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Budget" />
+      <Button layoutX="260.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Sponsors List" />
+      <Button layoutX="260.0" layoutY="233.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Guest List" />
+      <Button layoutX="260.0" layoutY="270.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Assign Task and Stuff" />
+      <Button layoutX="32.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Approval of Event" />
+      <Button layoutX="260.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="213.0" style="-fx-background-color: transperent; -fx-border-color: Skyblue;" text="Create Event Report" />
+      <Label layoutX="492.0" layoutY="180.0" prefHeight="226.0" prefWidth="218.0" style="-fx-background-color: #e7e7e7;" />
+      <Line endX="100.0" layoutX="265.0" layoutY="166.0" startX="-122.80000305175781" startY="1.52587890625E-5" strokeWidth="4.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.1666666716337204" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.9833333492279053" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Line endX="96.39996337890625" endY="1.52587890625E-5" layoutX="612.0" layoutY="180.0" startX="-118.0" startY="1.52587890625E-5" strokeWidth="4.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.16862745583057404" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.9833333492279053" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Label layoutX="553.0" layoutY="153.0" text="Announcement">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
