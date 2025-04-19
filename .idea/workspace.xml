@@ -6,9 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficerDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficerDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrainingandEducationCoordinatorDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrainingandEducationCoordinatorDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AddFactoryToBlacklistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AddFactoryToBlacklistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AssignTrainertoTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AssignTrainertoTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateNewTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateNewTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/DeleteTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/DeleteTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/EnrollWorkersInTrainingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/EnrollWorkersInTrainingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/IssueComplianceViolationNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/IssueComplianceViolationNoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ManageComplianceReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ManageComplianceReportsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ModifyTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ModifyTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RemoveFactoryFromBlacklistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RemoveFactoryFromBlacklistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RemoveWorkersfromTrainingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RemoveWorkersfromTrainingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/SafetyAuditReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/SafetyAuditReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ScheduleTrainingSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ScheduleTrainingSessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrackTrainingCompletionStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrackTrainingCompletionStatusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/WageComplianceReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/WageComplianceReportController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +124,7 @@
       <workItem from="1745027959280" duration="1469000" />
       <workItem from="1745033250217" duration="177000" />
       <workItem from="1745036310001" duration="2276000" />
+      <workItem from="1745042568891" duration="766000" />
     </task>
     <servers />
   </component>
