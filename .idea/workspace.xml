@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOFGuestListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOFGuestListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +68,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\java\com\example\bgmea" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\resources\com\example\bgmea\Mahathir FXML" />
       <recent name="C:\Users\HP\IdeaProjects\CSE_203_Group-36_BGMEA\src\main\resources\com\example\bgmea\Alamgir" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +102,7 @@
       <workItem from="1744819866743" duration="71000" />
       <workItem from="1744822413155" duration="6413000" />
       <workItem from="1744831685565" duration="1245000" />
+      <workItem from="1745044398479" duration="789000" />
     </task>
     <servers />
   </component>
