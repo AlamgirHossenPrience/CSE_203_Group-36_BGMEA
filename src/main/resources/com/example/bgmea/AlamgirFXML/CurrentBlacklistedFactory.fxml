@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.CurrentBlacklistedFactoryController">
+   <children>
+      <Label layoutX="187.0" layoutY="51.0" text="Current Blacklisted Factory">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="165.0" prefHeight="18.0" prefWidth="142.0" style="-fx-background-color: lavender;" text="Current Blaclisted Factory" />
+      <TableView fx:id="blaclistedFactoryTableview" layoutX="51.0" layoutY="203.0" prefHeight="160.0" prefWidth="499.0">
+        <columns>
+          <TableColumn fx:id="nameTableColumn" prefWidth="188.0" text="Factory Name" />
+            <TableColumn fx:id="violationTableColumn" prefWidth="152.0" text="Violation" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="137.5999755859375" text="Date" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="outputTextArea" layoutX="51.0" layoutY="376.0" prefHeight="58.0" prefWidth="499.0" wrapText="true" />
+      <Button layoutX="301.0" layoutY="450.0" mnemonicParsing="false" onAction="#LCODashboardButtonOnAction" text="Back to Labor Compliance Office Dashboard" />
+      <Button layoutX="53.0" layoutY="112.0" mnemonicParsing="false" onAction="#showBlacklistedFectoryButtonOnAction" prefHeight="26.0" prefWidth="499.0" text="Show Current Blacklisted Factory" />
+   </children>
+</AnchorPane>
