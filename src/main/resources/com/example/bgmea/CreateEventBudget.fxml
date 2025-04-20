@@ -50,7 +50,7 @@
         </columns>
       </TableView>
       <Label layoutX="269.0" layoutY="480.0" prefHeight="18.0" prefWidth="38.0" style="-fx-background-color: skyblue;" text="Total" />
-      <Label fx:id="totalLabel" layoutX="308.0" layoutY="480.0" prefHeight="18.0" prefWidth="128.0" style="-fx-background-color: skyblue;" />
+      <Label fx:id="totalLabel" layoutX="308.0" layoutY="480.0" prefHeight="18.0" prefWidth="128.0" style="-fx-background-color: skyblue;" textAlignment="RIGHT" />
       <Button layoutX="269.0" layoutY="506.0" mnemonicParsing="false" onMouseClicked="#sendButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: skyblue;" text="Send " />
       <Label layoutX="45.0" layoutY="511.0" text="Send for Approval to the President" />
    </children>
