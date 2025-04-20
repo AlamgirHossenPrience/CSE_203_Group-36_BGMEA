@@ -60,24 +60,21 @@ public class IssueComplianceViolationNoticeController
                         sl.add(s.getFactoryName());
                     }
                 } catch (EOFException eof) {
-                    break; // End of file reached
+                    break;
                 }
             }
         } catch(Exception e) {
-            e.printStackTrace(); // <--- DO NOT leave this empty
+            e.printStackTrace();
         } finally {
             try {
                 if(ois != null) ois.close();
             } catch(Exception e) {
-                e.printStackTrace(); // <--- Also avoid silent catch here
+                e.printStackTrace();
             }
         }
-
-// Now add to ComboBox
         for (String s : sl) {
             factoryNameCombobox.getItems().add(s);
         }
-
     }
 
     @javafx.fxml.FXML

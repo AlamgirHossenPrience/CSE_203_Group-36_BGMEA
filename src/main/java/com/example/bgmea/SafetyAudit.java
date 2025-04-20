@@ -3,14 +3,14 @@ package com.example.bgmea;
 import java.io.Serializable;
 
 public class SafetyAudit implements Serializable {
-    private int factoryCode;
+    private String factoryName;
     private String fireSafety, electricalSafety, structuralIntegrity, emergencyResponse, protectiveEquipment;
 
     public SafetyAudit() {
     }
 
-    public SafetyAudit(int factoryCode, String fireSafety, String electricalSafety, String structuralIntegrity, String emergencyResponse, String protectiveEquipment) {
-        this.factoryCode = factoryCode;
+    public SafetyAudit(String factoryName, String fireSafety, String electricalSafety, String structuralIntegrity, String emergencyResponse, String protectiveEquipment) {
+        this.factoryName = factoryName;
         this.fireSafety = fireSafety;
         this.electricalSafety = electricalSafety;
         this.structuralIntegrity = structuralIntegrity;
@@ -18,12 +18,12 @@ public class SafetyAudit implements Serializable {
         this.protectiveEquipment = protectiveEquipment;
     }
 
-    public int getFactoryCode() {
-        return factoryCode;
+    public String getFactoryName() {
+        return factoryName;
     }
 
-    public void setFactoryCode(int factoryCode) {
-        this.factoryCode = factoryCode;
+    public void setFactoryName(String factoryName) {
+        this.factoryName = factoryName;
     }
 
     public String getFireSafety() {
@@ -69,7 +69,7 @@ public class SafetyAudit implements Serializable {
     @Override
     public String toString() {
         return "SafetyAudit{" +
-                "factoryCode=" + factoryCode +
+                "factoryName='" + factoryName + '\'' +
                 ", fireSafety='" + fireSafety + '\'' +
                 ", electricalSafety='" + electricalSafety + '\'' +
                 ", structuralIntegrity='" + structuralIntegrity + '\'' +
