@@ -3,6 +3,7 @@ module com.example.bgmea {
     requires javafx.fxml;
 
 
+    opens com.example.bgmea.MahathirFXML to javafx.fxml;
     opens com.example.bgmea to javafx.fxml;
     exports com.example.bgmea;
 }

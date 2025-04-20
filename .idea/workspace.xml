@@ -7,8 +7,32 @@
     <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Factory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/Announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/Announcement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/AppliedMembers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/AppliedMembers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalListofSponsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalListofSponsers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOFGuestList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOFGuestList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOfEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOfEvent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOfEventBudget.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOfEventBudget.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateEvent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEventBudget.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/CreateEventBudget.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEventReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateEventReport.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateGuestList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateGuestList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateSponsorsAndAdvertisingList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateSponsorsAndAdvertisingList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/EventManagerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/EventManagerDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/FactoryProgress.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/FactoryProgress.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/InviteParticipent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/InviteParticipent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/PresidentDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/PresidentDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/RequestAnEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/RequestAnEvent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ShowActiveStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ShowActiveStatus.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/TaskStuffManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/TaskStuffManagement.fxml" afterDir="false" />
+>>>>>>> 44a06119872b491af31910f1ec63fc01818dc52e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +56,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="temurin-23" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -47,28 +75,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/MidPractice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\resources\com\example\bgmea" />
       <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\java\com\example\bgmea" />
       <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\resources\com\example\bgmea\Mahathir FXML" />
       <recent name="C:\Users\HP\IdeaProjects\CSE_203_Group-36_BGMEA\src\main\resources\com\example\bgmea\Alamgir" />

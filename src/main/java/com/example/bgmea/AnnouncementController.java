@@ -5,6 +5,7 @@ import javafx.scene.control.TextField;
 
 public class AnnouncementController
 {
+
     @javafx.fxml.FXML
     private TextField announcementTextField;
 
