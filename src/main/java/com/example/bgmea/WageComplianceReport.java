@@ -1,6 +1,8 @@
 package com.example.bgmea;
 
-public class WageComplianceReport {
+import java.io.Serializable;
+
+public class WageComplianceReport implements Serializable {
     private int factoryCode, basicSalary, overtimePament;
     private String allowances;
 

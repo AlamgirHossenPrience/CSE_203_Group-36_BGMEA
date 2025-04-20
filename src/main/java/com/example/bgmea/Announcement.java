@@ -1,8 +1,9 @@
 package com.example.bgmea;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Announcement {
+public class Announcement implements Serializable {
     private String title, message;
     private LocalDate date;
 

@@ -12,8 +12,8 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
 
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml"));
+//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml"));
 //        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("CreateEventBudget.fxml"));
 //        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/TrainingandEducationCoordinatorDashboard.fxml"));
         Scene scene = new Scene(fxmlLoader.load());

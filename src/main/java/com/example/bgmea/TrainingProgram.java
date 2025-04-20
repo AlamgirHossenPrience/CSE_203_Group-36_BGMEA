@@ -1,9 +1,10 @@
 package com.example.bgmea;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class TrainingProgram {
+public class TrainingProgram implements Serializable {
     private int programID;
     private String programTitle, mode, description;
     private float duration;

@@ -1,6 +1,8 @@
 package com.example.bgmea;
 
-public class Factory {
+import java.io.Serializable;
+
+public class Factory implements Serializable {
     private int factoryCode, noOfWorkers;
     private String factoryName, owner,contactNo;
 

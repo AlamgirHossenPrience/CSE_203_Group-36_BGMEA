@@ -1,8 +1,9 @@
 package com.example.bgmea;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Worker {
+public class Worker implements Serializable {
     private int workerID;
     private String workerName, phnNo, gender;
     private LocalDate dob;

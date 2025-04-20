@@ -1,6 +1,8 @@
 package com.example.bgmea;
 
-public class SafetyAudit {
+import java.io.Serializable;
+
+public class SafetyAudit implements Serializable {
     private int factoryCode;
     private String fireSafety, electricalSafety, structuralIntegrity, emergencyResponse, protectiveEquipment;
 

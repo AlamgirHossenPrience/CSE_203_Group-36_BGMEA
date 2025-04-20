@@ -1,8 +1,9 @@
 package com.example.bgmea;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class BlacklistedFactory {
+public class BlacklistedFactory implements Serializable {
     private int factoryCode, panaltyAmount;
     private String blacklistedBy, violation, reason;
     private LocalDate blacklistedDate;

@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9852046b-c8c0-421a-bc22-dc11fd1ac60e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Factory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Announcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/BlacklistedFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/BlacklistedFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CompletedProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CompletedProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ComplianceViolationNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ComplianceViolationNotice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/IssueComplianceViolationNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/IssueComplianceViolationNoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/SafetyAudit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/SafetyAudit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrainingProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TrainingProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/WageComplianceReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/WageComplianceReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,26 +29,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2w0NJ44BhlA6BPPnOfj9ahF0nsa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,10 +70,22 @@
       <option name="presentableId" value="Default" />
       <updated>1745174455500</updated>
       <workItem from="1745174456628" duration="114000" />
+      <workItem from="1745174697352" duration="2704000" />
+      <workItem from="1745177428664" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.NotSerializableException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

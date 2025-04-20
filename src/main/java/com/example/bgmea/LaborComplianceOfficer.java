@@ -1,4 +1,6 @@
 package com.example.bgmea;
 
-public class LaborComplianceOfficer {
+import java.io.Serializable;
+
+public class LaborComplianceOfficer implements Serializable {
 }
