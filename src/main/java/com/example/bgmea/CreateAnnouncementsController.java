@@ -4,10 +4,12 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.io.*;
 
 public class CreateAnnouncementsController
 {
@@ -15,6 +17,20 @@ public class CreateAnnouncementsController
     private TextArea outputTextArea;
     @javafx.fxml.FXML
     private TextArea messageTextArea;
+    @javafx.fxml.FXML
+    private DatePicker dateDatePicker;
+    @javafx.fxml.FXML
+    private TextField titleTextField;
+
+    public class AppendableObjectOutputStream extends ObjectOutputStream {
+        public AppendableObjectOutputStream(OutputStream out) throws IOException {
+            super(out);
+        }
+        @Override
+        protected void writeStreamHeader() throws IOException {
+            // Do not write a header
+        }
+    }
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -33,5 +49,35 @@ public class CreateAnnouncementsController
 
     @javafx.fxml.FXML
     public void creatAnnouncementButtonOnAction(ActionEvent actionEvent) {
+        Announcement a = new Announcement(titleTextField.getText(),
+                messageTextArea.getText(),
+                dateDatePicker.getValue());
+
+        File f;
+        FileOutputStream fos=null;
+        ObjectOutputStream oos=null;
+        try {
+            f = new File("WageComplianceReport.bin");
+            if(f.exists()){
+                fos = new FileOutputStream( f,true );
+                oos = new CreateAnnouncementsController.AppendableObjectOutputStream( fos );
+            }
+            else {
+                fos = new FileOutputStream(f);
+                oos = new ObjectOutputStream( fos );
+            }
+
+            oos.writeObject(a);
+
+        }catch(Exception e) {
+            //
+        }finally {
+            try{
+                if(oos != null) oos.close();
+            }catch(Exception e){
+                //
+            }
+        }
+        outputTextArea.setText("Successfully announcement created. \n"+a.toString());
     }
 }

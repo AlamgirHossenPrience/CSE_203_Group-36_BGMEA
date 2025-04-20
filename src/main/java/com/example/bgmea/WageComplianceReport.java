@@ -3,25 +3,25 @@ package com.example.bgmea;
 import java.io.Serializable;
 
 public class WageComplianceReport implements Serializable {
-    private int factoryCode, basicSalary, overtimePament;
-    private String allowances;
+    private int  basicSalary, overtimePament;
+    private String factoryName, allowances;
 
     public WageComplianceReport() {
     }
 
-    public WageComplianceReport(int factoryCode, int basicSalary, int overtimePament, String allowances) {
-        this.factoryCode = factoryCode;
+    public WageComplianceReport(String factoryName, int basicSalary, int overtimePament, String allowances) {
+        this.factoryName = factoryName;
         this.basicSalary = basicSalary;
         this.overtimePament = overtimePament;
         this.allowances = allowances;
     }
 
-    public int getFactoryCode() {
-        return factoryCode;
+    public String getFactoryName() {
+        return factoryName;
     }
 
-    public void setFactoryCode(int factoryCode) {
-        this.factoryCode = factoryCode;
+    public void setFactoryName(String factoryName) {
+        this.factoryName = factoryName;
     }
 
     public int getBasicSalary() {
@@ -51,9 +51,9 @@ public class WageComplianceReport implements Serializable {
     @Override
     public String toString() {
         return "WageComplianceReport{" +
-                "factoryCode=" + factoryCode +
-                ", basicSalary=" + basicSalary +
+                "basicSalary=" + basicSalary +
                 ", overtimePament=" + overtimePament +
+                ", factoryName='" + factoryName + '\'' +
                 ", allowances='" + allowances + '\'' +
                 '}';
     }
