@@ -4,73 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
+    <list default="true" id="9852046b-c8c0-421a-bc22-dc11fd1ac60e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RegisterNewFactoryController.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/Announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/Announcement.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/AppliedMembers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/AppliedMembers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalListofSponsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalListofSponsers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOFGuestList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOFGuestList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOfEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOfEvent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ApprovalOfEventBudget.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ApprovalOfEventBudget.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateEvent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEventBudget.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/CreateEventBudget.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateEventReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateEventReport.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateGuestList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateGuestList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/CreateSponsorsAndAdvertisingList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/CreateSponsorsAndAdvertisingList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/EventManagerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/EventManagerDashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/FactoryProgress.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/FactoryProgress.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/InviteParticipent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/InviteParticipent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/PresidentDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/PresidentDashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/RequestAnEvent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/RequestAnEvent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/ShowActiveStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/ShowActiveStatus.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/Mahathir FXML/TaskStuffManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/TaskStuffManagement.fxml" afterDir="false" />
->>>>>>> 44a06119872b491af31910f1ec63fc01818dc52e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="temurin-23" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2vlEqZRMCe7xklTJASf4Eg6HJMS" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2w0NJ44BhlA6BPPnOfj9ahF0nsa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,27 +32,10 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/MidPractice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\resources\com\example\bgmea" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\java\com\example\bgmea" />
-      <recent name="C:\Users\Lenovo\IdeaProjects\BGMEA\src\main\resources\com\example\bgmea\Mahathir FXML" />
-      <recent name="C:\Users\HP\IdeaProjects\CSE_203_Group-36_BGMEA\src\main\resources\com\example\bgmea\Alamgir" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -115,29 +47,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="" />
-      <created>1744711453896</created>
+      <changelist id="9852046b-c8c0-421a-bc22-dc11fd1ac60e" name="Changes" comment="" />
+      <created>1745174455500</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744711453896</updated>
-      <workItem from="1744711455559" duration="263000" />
-      <workItem from="1744712038904" duration="1218000" />
-      <workItem from="1744713322745" duration="17000" />
-      <workItem from="1744713569323" duration="81000" />
-      <workItem from="1744796112858" duration="59000" />
-      <workItem from="1744796316965" duration="90000" />
-      <workItem from="1744796484826" duration="3279000" />
-      <workItem from="1744800063600" duration="3252000" />
-      <workItem from="1744804475928" duration="2925000" />
-      <workItem from="1744815517425" duration="3340000" />
-      <workItem from="1744819866743" duration="71000" />
-      <workItem from="1744822413155" duration="6413000" />
-      <workItem from="1744831685565" duration="1245000" />
-      <workItem from="1745044398479" duration="789000" />
-      <workItem from="1745076680776" duration="91000" />
-      <workItem from="1745077783169" duration="49000" />
-      <workItem from="1745169773751" duration="1618000" />
-      <workItem from="1745171606093" duration="39000" />
+      <updated>1745174455500</updated>
+      <workItem from="1745174456628" duration="114000" />
     </task>
     <servers />
   </component>
