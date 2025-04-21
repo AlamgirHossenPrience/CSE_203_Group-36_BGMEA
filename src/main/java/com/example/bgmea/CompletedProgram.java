@@ -1,6 +1,8 @@
 package com.example.bgmea;
 
-public class CompletedProgram {
+import java.io.Serializable;
+
+public class CompletedProgram implements Serializable {
     private int programID;
     private String review;
 

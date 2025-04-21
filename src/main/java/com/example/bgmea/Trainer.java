@@ -1,6 +1,8 @@
 package com.example.bgmea;
 
-public class Trainer {
+import java.io.Serializable;
+
+public class Trainer implements Serializable {
     private int trainerID;
     private String trainerName, email, phnNo;
 

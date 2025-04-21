@@ -1,17 +1,18 @@
 package com.example.bgmea;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class BlacklistedFactory {
-    private int factoryCode, panaltyAmount;
-    private String blacklistedBy, violation, reason;
+public class BlacklistedFactory implements Serializable {
+    private int panaltyAmount;
+    private String factoryName, blacklistedBy, violation, reason;
     private LocalDate blacklistedDate;
 
     public BlacklistedFactory() {
     }
 
-    public BlacklistedFactory(int factoryCode, int panaltyAmount, String blacklistedBy, String violation, String reason, LocalDate blacklistedDate) {
-        this.factoryCode = factoryCode;
+    public BlacklistedFactory(String factoryName, int panaltyAmount, String blacklistedBy, String violation, String reason, LocalDate blacklistedDate) {
+        this.factoryName = factoryName;
         this.panaltyAmount = panaltyAmount;
         this.blacklistedBy = blacklistedBy;
         this.violation = violation;
@@ -19,12 +20,12 @@ public class BlacklistedFactory {
         this.blacklistedDate = blacklistedDate;
     }
 
-    public int getFactoryCode() {
-        return factoryCode;
+    public String getFactoryName() {
+        return factoryName;
     }
 
-    public void setFactoryCode(int factoryCode) {
-        this.factoryCode = factoryCode;
+    public void setFactoryName(String factoryName) {
+        this.factoryName = factoryName;
     }
 
     public int getPanaltyAmount() {
@@ -70,8 +71,8 @@ public class BlacklistedFactory {
     @Override
     public String toString() {
         return "BlacklistedFactory{" +
-                "factoryCode=" + factoryCode +
-                ", panaltyAmount=" + panaltyAmount +
+                "panaltyAmount=" + panaltyAmount +
+                ", factoryName='" + factoryName + '\'' +
                 ", blacklistedBy='" + blacklistedBy + '\'' +
                 ", violation='" + violation + '\'' +
                 ", reason='" + reason + '\'' +

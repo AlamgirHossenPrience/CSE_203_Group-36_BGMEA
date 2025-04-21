@@ -3,26 +3,26 @@ package com.example.bgmea;
 import java.time.LocalDate;
 
 public class ComplianceViolationNotice {
-    private int factoryCode;
+    private String factoryName;
     private String violationType, description;
     private LocalDate noticeDate;
 
     public ComplianceViolationNotice() {
     }
 
-    public ComplianceViolationNotice(int factoryCode, String violationType, String description, LocalDate noticeDate) {
-        this.factoryCode = factoryCode;
+    public ComplianceViolationNotice(String factoryName, String violationType, String description, LocalDate noticeDate) {
+        this.factoryName = factoryName;
         this.violationType = violationType;
         this.description = description;
         this.noticeDate = noticeDate;
     }
 
-    public int getFactoryCode() {
-        return factoryCode;
+    public String getFactoryName() {
+        return factoryName;
     }
 
-    public void setFactoryCode(int factoryCode) {
-        this.factoryCode = factoryCode;
+    public void setFactoryName(String factoryName) {
+        this.factoryName = factoryName;
     }
 
     public String getViolationType() {
@@ -52,7 +52,7 @@ public class ComplianceViolationNotice {
     @Override
     public String toString() {
         return "ComplianceViolationNotice{" +
-                "factoryCode=" + factoryCode +
+                "factoryName='" + factoryName + '\'' +
                 ", violationType='" + violationType + '\'' +
                 ", description='" + description + '\'' +
                 ", noticeDate=" + noticeDate +

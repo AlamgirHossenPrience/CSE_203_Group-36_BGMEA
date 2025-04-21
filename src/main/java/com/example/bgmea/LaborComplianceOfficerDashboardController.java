@@ -93,7 +93,7 @@ public class LaborComplianceOfficerDashboardController
 
     @javafx.fxml.FXML
     public void removeFactoryFromBlacklistButtonOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader (getClass().getResource(("/com/example/bgmea/AlamgirFXML/RemoveFactoryFromBlacklist.fxml")));
+        FXMLLoader fxmlLoader = new FXMLLoader (getClass().getResource(("/com/example/bgmea/AlamgirFXML/CurrentBlacklistedFactory.fxml")));
         Scene scene = new Scene(fxmlLoader.load());
 
         Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();

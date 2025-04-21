@@ -12,8 +12,6 @@ import java.io.IOException;
 public class ManageComplianceReportsController
 {
     @javafx.fxml.FXML
-    private TextField reportIDTextField;
-    @javafx.fxml.FXML
     private TableColumn reportTypeTableColumn;
     @javafx.fxml.FXML
     private TableColumn factoryNameTableColumn;
@@ -43,7 +41,7 @@ public class ManageComplianceReportsController
         stage.show();
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void deleteButtonOnAction(ActionEvent actionEvent) {
     }
 
