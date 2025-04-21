@@ -15,6 +15,8 @@ public class Announcement {
         this.date = date;
     }
 
+
+
     public String getTitle() {
         return title;
     }
@@ -47,4 +49,6 @@ public class Announcement {
                 ", date=" + date +
                 '}';
     }
+
+
 }

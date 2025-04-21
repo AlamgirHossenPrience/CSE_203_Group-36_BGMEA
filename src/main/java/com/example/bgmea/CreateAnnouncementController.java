@@ -3,8 +3,9 @@ package com.example.bgmea;
 import javafx.event.Event;
 import javafx.scene.control.TextField;
 
-public class AnnouncementController
-{
+//import static jdk.internal.agent.Agent.getText;
+
+public class CreateAnnouncementController {
 
     @javafx.fxml.FXML
     private TextField announcementTextField;
@@ -15,5 +16,8 @@ public class AnnouncementController
 
     @javafx.fxml.FXML
     public void announcementButton(Event event) {
+
+
     }
 }
+

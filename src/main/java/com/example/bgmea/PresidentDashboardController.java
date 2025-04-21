@@ -1,42 +1,34 @@
 package com.example.bgmea;
 
-import javafx.event.Event;
+import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
 
-public class PresidentDashboardController
-{
-    @javafx.fxml.FXML
-    private TableColumn pendingApprovalColumn;
-    @javafx.fxml.FXML
-    private TableView pendingApprovalTable;
-    @javafx.fxml.FXML
-    private TableColumn serialColumn;
-    @javafx.fxml.FXML
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class PresidentDashboardController {
+
+    @FXML
     private Label announcementLabel;
 
-    @javafx.fxml.FXML
+    @FXML
     public void initialize() {
-    }
-
-    @javafx.fxml.FXML
-    public void refreshPendingApprovalsButton(Event event) {
-    }
-
-    @javafx.fxml.FXML
-    public void activeStatusButton(Event event) {
-    }
-
-    @javafx.fxml.FXML
-    public void makeAnAnnouncementButton(Event event) {
-    }
-
-    @javafx.fxml.FXML
-    public void pendingMemberRequestButton(Event event) {
-    }
-
-    @javafx.fxml.FXML
-    public void factroryProgressButton(Event event) {
+        File file = new File("data/announcement.txt");
+        if (file.exists()) {
+            try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+                StringBuilder content = new StringBuilder();
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    content.append(line).append("\n");
+                }
+                announcementLabel.setText(content.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            announcementLabel.setText("No announcements yet.");
+        }
     }
 }

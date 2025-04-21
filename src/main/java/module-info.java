@@ -1,6 +1,7 @@
 module com.example.bgmea {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens com.example.bgmea.MahathirFXML to javafx.fxml;
