@@ -1,6 +1,5 @@
 package com.example.bgmea;
 
-import javafx.event.Event;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
@@ -22,14 +21,6 @@ public class AppliedMembersController
 
     @javafx.fxml.FXML
     public void initialize() {
-    }
-
-    @Deprecated
-    public void acceptButtonOnMouseClick(Event event) {
-    }
-
-    @Deprecated
-    public void refreshTableOnMouseClick(Event event) {
     }
 
     @javafx.fxml.FXML

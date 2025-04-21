@@ -5,19 +5,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
 public class HelloApplication extends Application {
+
     @Override
-    public void start(Stage stage) throws IOException {
-
-
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml"));
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("CreateEventBudget.fxml"));
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/TrainingandEducationCoordinatorDashboard.fxml"));
+    public void start(Stage stage) throws Exception {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/bgmea/MahathirFXML/PresidentDashboard.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("President Dashboard");
         stage.setScene(scene);
         stage.show();
     }

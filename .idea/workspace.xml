@@ -6,17 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="ab8af362-6bb4-4e66-879d-224aff158f87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Announcement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AppliedMembersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AppliedMembersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalListofSponsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalListofSponsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOFGuestListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOFGuestListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventBudgetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventBudgetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ApprovalOfEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateAnnouncementsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventBudgetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateEventReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateGuestListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateGuestListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateSponsorsAndAdvertisingListcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateSponsorsAndAdvertisingListcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/EventManagerDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/EventManagerDashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/FactoryProgressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/FactoryProgressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/Guest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/InviteParticipentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/InviteParticipentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/PresidentDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/PresidentDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/TaskStuffManagementController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/CreateEventBudget.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/Announcement.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RequestAnEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RequestAnEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ShowActiveStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ShowActiveStatusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/PresidentDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/MahathirFXML/PresidentDashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +69,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/MidPractice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/IdeaProjects/MidPractice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.bgmea" />

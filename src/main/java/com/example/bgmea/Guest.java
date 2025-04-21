@@ -17,8 +17,7 @@ public class Guest {
         this.isChiefGuest = isChiefGuest;
     }
 
-    public String getGuestName() {
-        return guestName;
+    public String getGuestName() {        return guestName;
     }
 
     public void setGuestName(String guestName) {
