@@ -104,12 +104,12 @@ public class TrainingandEducationCoordinatorDashboardController
 
     @javafx.fxml.FXML
     public void signOutButtonOnAction(ActionEvent actionEvent) throws IOException {
-//        FXMLLoader fxmlLoader = new FXMLLoader (getClass().getResource(("/com/example/bgmea/AlamgirFXML/.fxml")));
-//        Scene scene = new Scene(fxmlLoader.load());
-//
-//        Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
-//
-//        stage.setScene(scene);
-//        stage.show();
+        FXMLLoader fxmlLoader = new FXMLLoader (getClass().getResource(("LoginView.fxml")));
+        Scene scene = new Scene(fxmlLoader.load());
+
+        Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+
+        stage.setScene(scene);
+        stage.show();
     }
 }
