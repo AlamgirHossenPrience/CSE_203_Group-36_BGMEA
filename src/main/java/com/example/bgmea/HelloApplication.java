@@ -13,9 +13,9 @@ public class HelloApplication extends Application {
 
 
 //        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml"));
+//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml"));
 //        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("CreateEventBudget.fxml"));
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/TrainingandEducationCoordinatorDashboard.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/bgmea/AlamgirFXML/TrainingandEducationCoordinatorDashboard.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);

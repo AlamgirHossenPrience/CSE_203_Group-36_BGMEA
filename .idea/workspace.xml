@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9852046b-c8c0-421a-bc22-dc11fd1ac60e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CurrentBlacklistedFactoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/CurrentBlacklistedFactory.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlacklistedFactory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/BlacklistedFactory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Factory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficerDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/LaborComplianceOfficerDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/RemoveFactoryFromBlacklistController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/RemoveFactoryFromBlacklist.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AssignTrainertoTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/AssignTrainertoTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateNewTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/CreateNewTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ManageComplianceReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ManageComplianceReportsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ModifyTrainingProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bgmea/ModifyTrainingProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/LaborComplianceOfficerDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/ManageComplianceReports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bgmea/AlamgirFXML/ManageComplianceReports.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,8 @@
       <workItem from="1745177987051" duration="1595000" />
       <workItem from="1745180823155" duration="2481000" />
       <workItem from="1745184930093" duration="2172000" />
+      <workItem from="1745187279735" duration="335000" />
+      <workItem from="1745226146141" duration="5430000" />
     </task>
     <servers />
   </component>

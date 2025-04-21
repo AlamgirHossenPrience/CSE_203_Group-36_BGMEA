@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane minHeight="500.0" minWidth="600.0" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bgmea.LaborComplianceOfficerDashboardController">
    <children>
       <Label layoutX="43.0" layoutY="42.0" text="Bangladesh Garments Manufacturing and Export Assosiation">
@@ -24,7 +23,7 @@
       <Button layoutX="78.0" layoutY="251.0" mnemonicParsing="false" onAction="#complianceTecordingOptionButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Compliance Recording Option" />
       <Button layoutX="78.0" layoutY="286.0" mnemonicParsing="false" onAction="#manageAnnouncementsButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Manage Announcements" />
       <Button layoutX="78.0" layoutY="322.0" mnemonicParsing="false" onAction="#addFactoryToBlacklistButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Add a factory to the blacklist" />
-      <Button layoutX="78.0" layoutY="360.0" mnemonicParsing="false" onAction="#removeFactoryFromBlacklistButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Remove a factory from the blacklist" />
+      <Button layoutX="78.0" layoutY="360.0" mnemonicParsing="false" onAction="#removeFactoryFromBlacklistButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Current Blacklisted Factory" />
       <Button layoutX="78.0" layoutY="397.0" mnemonicParsing="false" onAction="#manageComplianceReportsButtonOnAction" prefHeight="26.0" prefWidth="274.0" text="Manage Compliance Reports" />
       <Button layoutX="421.0" layoutY="423.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="26.0" prefWidth="111.0" text="Sign Out" />
    </children>
